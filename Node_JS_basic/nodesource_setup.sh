@@ -19,7 +19,6 @@
 # please don't submit pull requests against the built scripts.
 #
 
-
 export DEBIAN_FRONTEND=noninteractive
 SCRSUFFIX="_12.x"
 NODENAME="Node.js 12.x"
