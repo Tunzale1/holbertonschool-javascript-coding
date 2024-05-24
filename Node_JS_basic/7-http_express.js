@@ -1,4 +1,3 @@
-/* eslint-disable */
 const express = require('express');
 
 const args = process.argv.slice(2);
@@ -24,7 +23,6 @@ app.get('/students', async (req, res) => {
 });
 
 app.listen(port, () => {
-  //   console.log(`Example app listening at http://localhost:${port}`);
 });
 
 module.exports = app;
